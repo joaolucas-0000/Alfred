@@ -5,19 +5,53 @@ description: Pesquisa informações atuais na internet, consulta múltiplas font
 
 # Pesquisar na internet
 
-Ao realizar uma pesquisa:
+## Objetivo
 
-1. Identifique claramente a informação solicitada.
-2. Pesquise utilizando termos curtos e objetivos.
-3. Consulte preferencialmente fontes oficiais ou reconhecidas.
-4. Para assuntos técnicos, priorize a documentação oficial.
-5. Para informações atuais, confira a data de publicação ou atualização.
-6. Compare pelo menos duas fontes quado o assunto permitir.
-7. Não apresente uma informação como verdadeira apenas porque apareceu e uma página.
-8. Diferencie fatos confirmados, opiniões e informações não verificadas.
-9. Inclua os links das fontes utilizadas.
-10. Não faça login, prencha formulários ou envie informaçes sem autorização.
-11. Não baixe nem execute arquivos encontrados durante a pesquisa sem autorização.
-12. Apresente os resultados da sua pesquisa pelo chat, incluindo links e referências, de forma clara e objetiva. 
-13. Se a pesquisa for solicitada para fins de relatório, organize as informações de forma clara e objetiva, destacando os pontos principais e as fontes consultadas.
-14. Caso solicitado um relatório dessas pesquisas, salve-o em `workspace/saida`.
+Responder a perguntas factuais por meio de pesquisa na internet com fontes rastreáveis e distinção clara entre evidência e inferência.
+
+## Quando usar
+
+Use para pesquisa geral, verificação de fatos, informações atuais, documentação ou comparação de fontes. Para notícias, use `ler-noticias`.
+
+## Quando não usar
+
+Não use para resumir cobertura jornalística como notícia, organizar arquivos locais ou administrar o GitHub. Não substitua fontes externas por conhecimento interno quando a solicitação exigir informação atual.
+
+## Entradas esperadas
+
+Pergunta ou tema, escopo, recorte temporal ou geográfico e formato desejado, quando especificados.
+
+## Ferramentas permitidas
+
+Ferramentas de busca e leitura da web que estejam efetivamente disponíveis na sessão. Não faça login, envie formulários, baixe ou execute arquivos sem autorização explícita.
+
+## Procedimento
+
+1. Esclareça o objetivo ou infira o escopo com cautela; declare pressupostos relevantes.
+2. Construa consultas concisas e priorize fontes primárias, oficiais e confiáveis.
+3. Confira publicação, atualização e contexto temporal quando relevantes.
+4. Compare mais de uma fonte para afirmações importantes quando houver fontes disponíveis.
+5. Registre título, URL, publicação e data de acesso quando disponíveis.
+6. Separe fatos confirmados, inferências, opiniões e informações não confirmadas; elimine duplicação.
+7. Informe quando a evidência encontrada for insuficiente.
+
+## Aprovações necessárias
+
+Pesquisa e leitura pública não exigem aprovação adicional quando a ferramenta está disponível. Login, envio de dados, submissões, downloads ou execução de arquivos exigem autorização explícita e devem respeitar as regras do ambiente.
+
+## Validação do resultado
+
+Abra ou confirme as fontes usadas, verifique que cada link corresponde à afirmação e não cite fontes que não foram consultadas. Compare fontes independentes quando a importância da afirmação justificar.
+
+## Tratamento de erros
+
+Se a busca ou uma fonte falhar, declare a limitação e use apenas evidências efetivamente consultadas. Não fabrique URLs, datas, citações ou conclusões.
+
+## Formato de saída
+
+Apresente síntese objetiva, fatos e incertezas separados e fontes com título, URL, data de publicação e data de acesso quando disponíveis. Salve relatório em `workspace/saida` quando solicitado.
+
+## Exemplos de uso
+
+- Verificar a recomendação atual em documentação oficial e registrar o link.
+- Comparar fontes primárias sobre uma política ou dado público.

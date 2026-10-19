@@ -1,0 +1,46 @@
+# Local credentials and sensitive configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+.secrets/
+credentials.json
+token.json
+tokens.json
+*.token
+token.txt
+tokens.txt
+*_token
+*_token.*
+secrets.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local logs and generated caches
+*.log
+logs/
+**/__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+**/.cache/
+node_modules/
+.venv/
+venv/
+
+# Temporary files and workspace scratch data
+*.tmp
+*.temp
+*.swp
+*.swo
+tmp/
+temp/
+workspace/temporario/**
+!workspace/temporario/.gitkeep
+
+# Operating-system files
+.DS_Store
+Thumbs.db
